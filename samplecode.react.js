@@ -41,7 +41,6 @@ const UserProfile = ({ politechUser }) => {
           <p>ID: {user.id}</p>
           <p>Name: {user.name}</p>
           <p>Email: {user.email}</p>
-          {/* Render other user details */}
         </div>
       ) : (
         <p>User not found</p>
