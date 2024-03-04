@@ -18,10 +18,9 @@ const UserProfile = ({ politechUser }) => {
   }, [politechUser]);
 
   const fetchUserData = async () => {
-    // Simulate fetching user data from an API
+
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        // Simulated user data
         const mockUserData = {
           id: politechUser,
           name: 'John Doe',
